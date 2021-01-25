@@ -1,0 +1,25 @@
+{
+    "name": "iluxaorlov/base32",
+    "type": "library",
+    "description": "Library for Base32 encoding and decoding",
+    "keywords": ["base32", "encode", "decode"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ilya Orlov",
+            "email": "iluxaorlov@yandex.ru",
+            "homepage": "https://github.com/iluxaorlov"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Iluxaorlov\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
